@@ -46,7 +46,7 @@ module Game.Werewolf.Role (
 
     -- *** The Villagers
     -- | Fraught with fear of the unseen enemy, the Villagers must work together to determine the
-    --   truth and eliminate the threat to Fougeres. The task before them will not be easy, but a
+    --   truth and eliminate the threat to Ferns. The task before them will not be easy, but a
     --   certain few have learnt some tricks over the years that may turn out rather useful.
 
     --   The Villagers must lynch all of the Werewolves.
@@ -309,7 +309,7 @@ crookedSenatorRole = Role
     }
 
 -- | /How honoured we are to be in the presence of such a noble leader. The return of the Druid/
---   /marks an exceptional time in Fougeres's history! Friend of the woodland creatures, practiced/
+--   /marks an exceptional time in Ferns's history! Friend of the woodland creatures, practiced/
 --   /philosopher and now, with the help of Ferina their companion, a bane to the Werewolves/
 --   /themselves! My does she have a nose on her, strong enough to sniff out lycanthropes in close/
 --   /proximity! Listen for her grunt and heed her warning for she will not let you down./
@@ -382,7 +382,7 @@ lycanRole = Role
     }
 
 -- | /A beautiful flirt, the Medusa is aligned with the Villagers but harbours a terrifying secret./
---   /During the day they are well known in the village of Fougeres for their stunning appearance/
+--   /During the day they are well known in the village of Ferns for their stunning appearance/
 --   /which captures the eye and love of all the townsfolk. However when their secret takes ahold/
 --   /at sundown, their true self is revealed. Any who gaze upon her true form would see live/
 --   /snakes for hair and the few that further look into her eyes are turned to stone./
@@ -406,7 +406,7 @@ medusaRole = Role
 --   /knows the village will only live if they work together./
 --
 --   Each night the Oracle chooses a player to divine. They are then informed of the player's role
---   the following morning. This wisdom is for the Oracle to use to ensure the future of Fougeres.
+--   the following morning. This wisdom is for the Oracle to use to ensure the future of Ferns.
 oracleRole :: Role
 oracleRole = Role
     { _tag          = "oracle"
@@ -454,7 +454,7 @@ saintRole = Role
     }
 
 -- | /Werewolves don't just spring up out of the ground! That's where dwarves come from. Clearly/
---   /someone is to blame for this affliction to Fougeres. Unluckily for the Scapegoat, since/
+--   /someone is to blame for this affliction to Ferns. Unluckily for the Scapegoat, since/
 --   /no-one actually knows who brought them here, the blame is always laid upon them!/
 --
 --   If the village's vote ends in a tie, it's the Scapegoat who is eliminated instead of no-one.
@@ -489,7 +489,7 @@ seerRole = Role
     }
 
 -- | /A simple, ordinary townsperson in every way. Some may be cobblers, others bakers or even/
---   /nobles. No matter their differences though, the plight of Werewolves in Fougeres unites all/
+--   /nobles. No matter their differences though, the plight of Werewolves in Ferns unites all/
 --   /the Villagers in this unfortunate time./
 --
 --   The Simple Villager has no special abilities, they must use their guile to determine whom among
@@ -506,7 +506,7 @@ simpleVillagerRole = Role
     }
 
 -- | /A simple, ordinary townsperson in every way. Some may be cobblers, others bakers or even/
---   /nobles. No matter their differences though, the plight of Werewolves in Fougeres unites all/
+--   /nobles. No matter their differences though, the plight of Werewolves in Ferns unites all/
 --   /the Villagers in this unfortunate time./
 --
 --   /Yet the Spiteful Villager has no loyalty in the afterlife; whoever causes them harm may find/
@@ -559,7 +559,7 @@ witchRole = Role
     , _rules        = T.strip [iFile|variant/standard/role/witch/rules.txt|]
     }
 
--- | /The Alpha Wolf leads the Werewolves in the raids against Fougeres each night and not even the/
+-- | /The Alpha Wolf leads the Werewolves in the raids against Ferns each night and not even the/
 --   /Seer can see them coming. If the Werewolves caused the Villagers to question and accuse one/
 --   /another beforehand, the Alpha Wolf eliminates any shred of humanity left. No-one can be/
 --   /trusted anymore and no-one knows the truth./
@@ -578,7 +578,7 @@ alphaWolfRole = Role
 
 -- | /The Simple Werewolf is a fearsome lupine, cunning like no other creature that roams the/
 --   /forest. Their origin is unknown, but that matters little, for they present a grave threat to/
---   /Fougeres. While each day they hide in plain sight as an ordinary Villager, each night they/
+--   /Ferns. While each day they hide in plain sight as an ordinary Villager, each night they/
 --   /transform and devour an innocent. There is little hope left for the village./
 --
 --   A Werewolf may never devour another Werewolf.

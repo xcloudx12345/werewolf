@@ -15,7 +15,7 @@ If you're here just to play werewolf, you may wish to skip straight to
 ### Game description
 
 Long has the woods been home to wild creatures, both kind and cruel.
-Most have faces and are known to the inhabitants of Fougères in Brittany, France; but no-one from
+Most have faces and are known to the inhabitants of Ferns in Brittany, France; but no-one from
     the village has yet to lay eyes on the merciless Werewolf.
 
 Each night Werewolves attack the village and devour the innocent.
@@ -53,7 +53,7 @@ The Loners must complete their own objective.
 **The Villagers:**
 
 Fraught with fear of the unseen enemy, the Villagers must work together to determine the truth and
-    eliminate the threat to Fougères.
+    eliminate the threat to Ferns.
 The task before them will not be easy, but a certain few have learnt some tricks over the years that
     may turn out rather useful.
 
@@ -128,7 +128,7 @@ E.g., to start a game:
 {"ok":true,"messages":[
     {"to":null,"message":"A new game of werewolf is starting with @foo, @bar, @baz, @qux, @quux, @corge and @grault!"},
     {"to":null,"message":"The roles in play are Seer (1), Simple Villager (4) and Simple Werewolf (2) for a total balance of -2."},
-    {"to":"@foo","message":"You're a Simple Villager.\nA simple, ordinary townsperson in every way. Some may be cobblers, others bakers or even nobles. No matter their differences though, the plight of Werewolves in Fougères unites all the Villagers in this unfortunate time.\nThe Simple Villager has no special abilities, they must use their guile to determine whom among them is not who they say they are."},
+    {"to":"@foo","message":"You're a Simple Villager.\nA simple, ordinary townsperson in every way. Some may be cobblers, others bakers or even nobles. No matter their differences though, the plight of Werewolves in Ferns unites all the Villagers in this unfortunate time.\nThe Simple Villager has no special abilities, they must use their guile to determine whom among them is not who they say they are."},
     ...,
     {"to":null,"message":"Night falls, the village is asleep."},
     {"to":null,"message":"The Seer wakes up."},
