@@ -4,5 +4,3 @@ ghc-options:
 
 packages:
 - '.'
-extra-deps:
-- url: https://github.com/xcloudx12345/werewolf/raw/master/werewolf-slack
