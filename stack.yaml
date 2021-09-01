@@ -5,4 +5,4 @@ ghc-options:
 packages:
 - '.'
 extra-deps:
-- url: https://github.com/xcloudx12345/werewolf-http/archive/refs/tags/1.0.tar.gz
+- url: https://github.com/xcloudx12345/werewolf/raw/master/werewolf-slack
