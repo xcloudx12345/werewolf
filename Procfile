@@ -1,1 +1,1 @@
-web: werewolf
+worker: werewolf
