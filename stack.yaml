@@ -4,3 +4,5 @@ ghc-options:
 
 packages:
 - '.'
+extra-deps:
+- url: https://github.com/xcloudx12345/werewolf-http/archive/refs/tags/1.0.tar.gz
