@@ -1,1 +1,1 @@
-web:node werewolf
+web: werewolf
